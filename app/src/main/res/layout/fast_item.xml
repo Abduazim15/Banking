@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingVertical="10dp"
+    android:layout_marginVertical="5dp"
+    android:id="@+id/layout"
+    android:foreground="@drawable/click_effect"
+    android:background="@drawable/history_type"
+    android:paddingHorizontal="20dp"
+    android:layout_height="60dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="+998 94 130 22 28"
+        android:gravity="center"
+        android:id="@+id/number"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins"
+        android:layout_height="match_parent"/>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:id="@+id/button"
+        android:background="@drawable/history_type"
+        android:backgroundTint="@color/custom_border_color">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="To'lash"
+            android:id="@+id/pay"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</LinearLayout>

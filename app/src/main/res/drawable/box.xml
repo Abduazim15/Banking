@@ -1,0 +1,14 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <!-- Customize the checked state color -->
+            <solid android:color="#FF0000" /> <!-- Replace with your desired color -->
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <!-- Customize the unchecked state color -->
+            <solid android:color="#000000" /> <!-- Replace with your desired color -->
+        </shape>
+    </item>
+</selector>

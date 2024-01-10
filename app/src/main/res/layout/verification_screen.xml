@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/verefication"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/conform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/poppins"
+        android:text="Verify Account!"
+        android:textColor="#414A61"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:justificationMode="inter_word"
+        android:text="Enter 6-digit Code code we have sent to at  "
+        android:textColor="#414A61"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/conform" />
+
+    <TextView
+        android:id="@+id/numner_code"
+        android:layout_width="319dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:justificationMode="inter_word"
+        android:text=" +234 81 137 335 82."
+        android:textColor="#414A61"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/t2" />
+
+
+    <LinearLayout
+
+        android:id="@+id/code"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/t2">
+
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:id="@+id/code1"
+                android:layout_width="40dp"
+                android:layout_height="48dp"
+                android:background="@drawable/default_code"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/code1_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:textColor="#414A61"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:id="@+id/code2"
+                android:layout_width="40dp"
+                android:layout_height="48dp"
+                android:background="@drawable/default_code"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/code2_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:textColor="#414A61"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:id="@+id/code3"
+                android:layout_width="40dp"
+                android:layout_height="48dp"
+                android:background="@drawable/default_code"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/code3_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:textColor="#414A61"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:id="@+id/code4"
+                android:layout_width="40dp"
+                android:layout_height="48dp"
+                android:background="@drawable/default_code"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/code4_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:textColor="#414A61"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:id="@+id/code5"
+                android:layout_width="40dp"
+                android:layout_height="48dp"
+                android:background="@drawable/default_code"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/code5_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:textColor="#414A61"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:id="@+id/code6"
+                android:layout_width="40dp"
+                android:layout_height="48dp"
+                android:background="@drawable/default_code"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/code6_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:textColor="#414A61"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/time_code"
+        android:layout_width="319dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="01:00"
+        android:textColor="#414A61"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/code" />
+
+    <TextView
+        android:id="@+id/resent"
+        android:layout_width="319dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/poppins_light"
+        android:gravity="center"
+        android:text="Didn’t not received the code?"
+        android:textColor="#414A61"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/code" />
+
+    <TextView
+        android:id="@+id/resent2"
+        android:layout_width="319dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="Resend Code"
+        android:textColor="#414A61"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/resent" />
+
+    <LinearLayout
+        android:layout_width="111dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="15dp"
+        android:background="#414A61"
+        android:fontFamily="@font/poppins"
+        app:layout_constraintBottom_toBottomOf="@id/resent2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/resent2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/proced"
+        android:layout_width="333dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/poppins"
+        android:foreground="@drawable/click_effect"
+        android:text="Proced"
+        android:textColor="#FFFFFF"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resent2" />
+
+    <TextView
+        android:id="@+id/pp"
+        android:layout_width="319dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/poppins_light"
+        android:gravity="center"
+        android:justificationMode="inter_word"
+        android:text="by clicking start, you agree to our Privacy Policy our Teams and Conditions"
+        android:textColor="#414A61"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/proced" />
+
+    <LinearLayout
+        android:id="@+id/p2"
+        android:layout_width="240dp"
+        android:layout_height="1dp"
+        android:background="#414A61"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
